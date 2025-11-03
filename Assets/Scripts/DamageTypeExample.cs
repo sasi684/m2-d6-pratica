@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DAMAGE_TYPE
-{
-    SLASHING,
-    PIERCING,
-    BLUDGEONING,
-    MAGICAL,
-    FORCE
-}
 public class DamageTypeExample : MonoBehaviour
 {
+    public enum DAMAGE_TYPE
+    {
+        SLASHING,
+        PIERCING,
+        BLUDGEONING,
+        MAGICAL,
+        FORCE
+    }
+
     [SerializeField] private DAMAGE_TYPE attackType, resistance, weakness;
     [SerializeField] private int baseDamage;
     // Start is called before the first frame update
