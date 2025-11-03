@@ -8,7 +8,7 @@ public enum STATE
     AGGROED,
     ATTACKING,
     DEFEATED
-};
+}
 public class EnemySwitchBehaviour : MonoBehaviour
 {
     [SerializeField] private STATE state;
